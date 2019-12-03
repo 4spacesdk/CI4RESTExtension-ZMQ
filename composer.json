@@ -1,0 +1,21 @@
+{
+  "name": "4spacesdk/ci4restextension-zmq",
+  "description": "REST Extension ZMQ",
+  "authors": [
+    {
+      "name": "Martin Hansen",
+      "email": "martin@4spaces.dk"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1",
+    "4spacesdk/ci4debugtool": ">=1.0.0",
+    "react/zmq": "0.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RestExtension\\": ""
+    }
+  }
+}
